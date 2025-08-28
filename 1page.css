@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    flex: 1fr;
+    height: 650px;
+    background-image: url("../gulsorkh.jpg");
+    align-items: center;
+}
+.genral{
+    display: flex;
+    flex: 1fr;
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    background-color: aquamarine;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    border:solid;
+    border-color: black;
+    border-radius: 2px;
+    padding: 5px;
+    border-width: 1px;
+    justify-content: center;
+}
+@media (max-width:1px){
+    .genral{
+    grid-template-columns: 1fr;
+}
+}
+@media (min-width:1000px){
+    .genral{
+    grid-template-columns: 1fr;
+}
+}
+.login{
+    background-color: rgb(253, 249, 245);
+    color: rgb(64, 5, 120);
+    transform: opacity 1.4s;
+    transform:box-shadow 2.1s;
+    padding: 4px;
+    margin-top: 70px;
+    border: 2px;
+    border-radius: 2px;
+    border-width:2px;
+    border-color: blueviolet;
+    border-top-color: aqua;
+    font-style: italic;
+    width: 80px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.login:hover{
+    color: brown;
+    background-color: rgb(62, 212, 212);
+    opacity: 1.4s;
+    box-shadow: 0px 2px 20px 2px rgb(226, 68, 68);
+}
+.login:active{
+    opacity: 1.4s;
+}
+.input{
+    display: grid;
+    flex: 1fr;
+    margin-bottom: 10px;
+}
+.bu{
+    background-color: blueviolet;
+    margin-bottom: 25px;
+    border-style: double;
+    position: relative;
+    flex: 1fr;
+
+}
+.bu:hover{
+    background-color: rgb(190, 65, 84);
+}
+.li{
+    color: black;
+    position: grid;
+    flex: 1;
+    margin:center;
+}
+.li:hover{
+    background-color: rgb(81, 225, 153);
+    color: rgb(216, 22, 35);
+    border-style:dashed;
+    border: 1px;
+    border-radius: 2px;
+    border-color: black;
+}
+.send{
+    position: relative;
+    flex: 1fr;
+    margin: auto;
+    background-color: beige;
+    border-width:3cqmax;
+    border-radius: 2px;
+    border-style: dashed;
+    background-color: rgb(207, 25, 8);
+    font-size: 15px;
+    cursor: pointer;
+    border-color: rgb(34, 23, 44);
+    transform: opcity 1s;
+    
+}
+.send:hover{
+    background-color: rgb(6, 230, 99);
+    border-color: blueviolet;
+    opacity: 1s;
+    box-shadow: 2px 2px 2px  green;
+
+}

@@ -1,0 +1,457 @@
+.login {
+    display: flex;
+    background-color: rgb(199, 37, 8);
+    width: 50px;
+    height: 30px0x;
+    border-radius: 30px;
+    align-items: center;
+    font-size: 15px;
+    font-style: italic;
+    border: 2px;
+    margin: 0px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    margin-top: 5px;
+    border: solid;
+    border-style: dotted;
+    border: inset 2px;
+    border-color: blueviolet;
+}
+
+.had {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgb(140, 253, 232);
+    border-color: rgb(168, 138, 138);
+    border: solid;
+    border-width: 1px;
+    z-index: 1;
+    flex: 1fr
+}
+
+.bhome {
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    border: 1px;
+}
+
+.home {
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bshort {
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    border: 1px;
+
+}
+
+.short {
+    width: 55px;
+    height: 55px;
+}
+
+.bsub {
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    border: 1px;
+}
+
+.sub {
+    width: 55px;
+    height: 55px;
+}
+
+.bari {
+    width: 55px;
+    padding: 0px;
+    margin: 0px;
+    padding: 5pxpx;
+    height: 1000px;
+    background-color: rgb(184, 133, 231);
+}
+
+.bs {
+    display: flex;
+    width: 35px;
+    height: 28px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(56, 52, 52, 0.205);
+    border-width: 1px;
+    margin-left: 0;
+    border-left: 0;
+    background-color: white;
+    margin-right: 5px;
+    padding: 1px;
+
+}
+
+.bm {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+    padding: 0px;
+    margin-right: 5px;
+}
+
+.si {
+    display: flex;
+    position: relative;
+    width: 35px;
+    margin: 0px;
+    align-items: center;
+}
+
+.mic {
+    display: flex;
+    width: 24px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+
+.sl {
+    width: 20px;
+    background-color: blueviolet;
+    border: style 29px;
+    ;
+}
+
+.tow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    background-color: aquamarine;
+    width: 200px;
+    flex: 1;
+    max-width: 400;
+    flex-shrink: 0;
+}
+
+.img {
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+    max-width: 100px;
+}
+
+.b {
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    background-color: bisque;
+    border-width: 1px;
+    margin-left: 5px;
+
+}
+
+.mudiem {
+    display: flex;
+    height: 40px;
+    flex: 1;
+    max-width: 400px;
+    background-color: rgb(134, 250, 225);
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.tooltip {
+    width: 34px;
+    font-size: 12px;
+    position: relative;
+    right: 40px;
+    bottom: -22px;
+    opacity: 0;
+    border: 0px;
+    padding: 1px;
+}
+
+.tooltip:hover {
+    opacity: 1;
+
+}
+
+.tooltip:active {
+    opacity: 1s;
+}
+
+.se {
+    display: flex;
+    width: 200px;
+    flex: 1;
+    max-width: 350px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(56, 52, 52, 0.205);
+    border-width: 1px;
+    height: 24px;
+    border-right: 0px;
+    margin-right: -1px;
+    margin-left: 5px;
+
+}
+
+.and {
+    display: flex;
+    height: 40px;
+    background-color: aquamarine;
+    width: 200px;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.vidi {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bili {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.not {
+    width: 10px;
+    height: 10px;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 6px;
+    margin: 0px;
+    font-size: 15px;
+    border: 0px;
+    border-width: 0px;
+    font-size: 10px;
+}
+
+.mini {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    margin-right: 15px;
+}
+
+.man {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-left: 0px;
+}
+
+.man:hover {
+    width: 50px;
+    height: 40px;
+}
+
+.bv {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.bb {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 5px;
+    margin-right: 15px;
+}
+
+.bmi {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 15px;
+}
+
+
+
+body {
+    background-color: rgb(220, 231, 227);
+    padding-top: 2px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    background-image: url("../2.3gulsafid.jpg");
+    background-repeat: round;
+    background-size: cover;
+}
+
+.d1 {
+    background-color: rgb(82, 152, 152);
+    padding: 5px;
+
+    font-style: italic;
+}
+
+.d12 {
+    width: 100%;
+}
+
+.d2 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+.time1 {
+    font-size: 10px;
+    background-color: rgb(47, 47, 48);
+    color: white;
+    font-style: italic;
+}
+
+.time2 {
+    position: relative;
+    width: 20px;
+    background-color: rgb(47, 47, 48);
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+    bottom: 16px;
+    width: 22px;
+    right: -92px;
+
+}
+
+.time4 {
+    position: absolute;
+    width: 20px;
+    background-color: rgb(47, 47, 48);
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+    width: 22px;
+    right: -92px;
+
+}
+
+.m1 {
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+}
+
+.d3 {
+    width: 100%;
+}
+
+.m2 {
+    display: inline-block;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.d4 {
+    display: inline-block;
+    width: 100%;
+}
+
+.p1 {
+    font-weight: 500;
+
+}
+
+.b11 {
+    width: 80px;
+    height: 20px;
+    margin: 0px;
+}
+
+.b1 {
+    background-color: rgb(52, 111, 240);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: 0px;
+
+}
+
+.najibi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.najibi1 {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    background-color: aqua;
+}
+
+.najibi2 {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    background-color: aqua;
+}
+
+.najibi3 {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    background-color: aqua;
+}
+
+.najibi4 {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    background-color: aqua;
+}
+
+.najibi0 {
+    display: grid;
+    row-gap: 15px;
+}
+
+<!--@media(min-width: 750px) {
+    body {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}-->
+
+-->.time {
+    width: 10px;
+    height: 10px;
+    color: rgb(237, 233, 229);
+    font-size: 10px;
+    margin-left: 10px;
+}
